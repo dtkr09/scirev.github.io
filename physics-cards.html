@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="flashcards.css" type="text/css" rel="stylesheet">
+    <title>PESS 1.4 Revision</title>
+</head>
+<body>
+    <a href="index.html" id="editbutton">&#10094; Back</a>
+    <main style="margin-top: 10vw;">
+        <div class="progressbar">
+            <div id="filler">
+            </div>
+        </div>
+        <h2 id="percentCorrect">100% Correct</h2>
+        <center><a id="restart" onclick="restart()">Try Again</a></center>
+        <div class="slideshow-container">
+            <!-- Next and previous buttons -->
+            <a id="wrong" onclick="percentRight(), plusSlides(1), increaseprogress()">&#xd7;</a>
+            <a id="correct" onclick="plusSlides(1), increaseprogress()"><b>&#x2713;</b></a>
+        </div>
+        <center>
+            <p style="color: white; margin-top: 2vw; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Click on Card to flip</p>
+        </center>
+    </main>
+    <script src="flashcards-physics.js"></script>
+    <script src="displayflashcards.js"></script>
+</body>
+</html>
