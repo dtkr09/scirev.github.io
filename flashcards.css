@@ -6,16 +6,6 @@
   position: relative;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .card-front {
-    font-size: 0.5vw;
-  }
-  .card-back {
-    font-size: 0.5vw;
-  }
-}
-
 
 body{
   display: flex;
@@ -50,7 +40,7 @@ body{
   height: 100%;
   backface-visibility: hidden;
   display:flex;
-  font-size: 2vw;
+  font-size: auto;
   text-align: center;
   align-items: center;
   display: grid;
