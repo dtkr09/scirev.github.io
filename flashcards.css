@@ -54,7 +54,6 @@ position: absolute;
 backface-visibility: hidden;
 transform: rotateY(180deg);
 display: flex;
-font-size: 2vw;
 text-align: center;
 align-items: center;
 display: grid;
