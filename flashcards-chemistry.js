@@ -9,7 +9,7 @@ const quiz = {
     "Define metal and list some key properties.": "A material that is hard, shiny, malleable, fusible, and ductile.",
     "Describe the structure of metals.": "Metals have a non-directional lattice structure with cations surrounded by a sea of delocalized electrons, holding the structure together.",
     "Name five general properties of metals.": "High melting and boiling points, malleable, ductile, high electrical and thermal conductivity, lustrous, high tensile strength.",
-    "Define an ionic compound.": "A compound made of ions.",
+    "Define an ionic compound.": "A compound typically made of a metal ion, and a non-metal ion.",
     "Describe the structure of an ionic compound.": "It has a tightly packed directional lattice where positive ions are surrounded by negative ions and vice versa.",
     "List three properties of ionic compounds.": "Insoluble, brittle, high melting and boiling points, poor conductivity.",
     "What is a polymer?": "A substance with a molecular structure primarily made up of repeating molecules.",
